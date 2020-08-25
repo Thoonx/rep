@@ -6,7 +6,7 @@ import Op from '../components/Op'
 const Test =() => (
     <div className={styles.container}>
       <Head>
-        <title>TEST</title>
+        <title>This is TEST</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

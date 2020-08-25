@@ -5,11 +5,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Home</title>
+        <title>This is Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>HOME</h1>
+      <h1>This is HOME</h1>
+      <p>Updated</p>
 
      
     </div>
