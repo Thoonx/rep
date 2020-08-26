@@ -1,10 +1,5 @@
 {
-  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
-  "/api/hello": "pages/api/hello.js",
-  "/": "pages/index.html",
-  "/test": "pages/test.html",
-  "/test/hej": "pages/test/hej.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js"
 }

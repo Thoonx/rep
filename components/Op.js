@@ -1,15 +1,13 @@
+import Heading from './Heading'
+
 const Op = () => (
-	<div className='test'>
-		
-		<p>It's op Component</p>
+	<>
+		<Heading heading="This is Op from Op" />
 
 		<style jsx>{`
 			p{color: red}
 		`}</style>
-	</div>
-
-
-
+	</>
 )
 
 export default Op
