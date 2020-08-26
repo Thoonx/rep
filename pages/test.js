@@ -11,30 +11,30 @@ const Test =() => (
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-         <h1>OVO JE TEST</h1>
+         <h1>This is TEST</h1>
 		 <Hello />
      <Op />
 
-<div style={{ display: 'flex', flexWrap: 'wrap' }} >
+     <div style={{ display: 'flex', flexWrap: 'wrap', maxWidth: '1200px' }} >
      <Card 
      Image="https://unsplash.it/300"
      Name="This is Card component"
-     Text="Hello to props crazy component and let's see what it's look like"
+     Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
      />
       <Card 
      Image="https://unsplash.it/290"
      Name="This is Card component 2"
-     Text="Hello to props crazy component and let's see what it's look like"
+     Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
      />
       <Card 
      Image="https://unsplash.it/310"
      Name="This is Card component 3"
-     Text="Hello to props crazy component and let's see what it's look like"
+     Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
      />
       <Card 
      Image="https://unsplash.it/320"
      Name="This is Card component 4"
-     Text="Hello to props crazy component and let's see what it's look like"
+     Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
      />
      </div>
     

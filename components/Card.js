@@ -12,6 +12,7 @@ const Card = (props) => (
 				padding: 20px;
 				color: black;
 				margin: 10px;
+				box-shadow: 6px 5px 13px #00000059;
 			}
 			.card img{
 				width:100%;

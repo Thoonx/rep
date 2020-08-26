@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-import Link from "next/link"
 import Head from 'next/head'
+import Nav from '../components/Nav'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,12 +9,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="custom" content="test" />
       </Head>
 
-      <header>
-        <Link href="/"><a>Home</a></Link>
-        <Link href="/test"><a>Test</a></Link>
-        <Link href="/About"><a>About</a></Link>
-      </header>
-      
+      <Nav />
+
   <Component {...pageProps} />
   </>
   )
