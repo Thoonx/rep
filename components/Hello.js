@@ -4,7 +4,7 @@ const Hello = () => (
 			
 
 			<style jsx>{`
-				p{color: blue}
+				h1{color: blue}
 			`}</style>
 		</div>
 
