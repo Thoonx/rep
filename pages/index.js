@@ -11,9 +11,8 @@ export default function Home() {
 
       <h1>This is HOME</h1>
       <p>Updated new 2</p>
-    <img src="https://unsplash.it/200">
-
-     
+        <img src="https://unsplash.it/200">
+    
     </div>
   )
 }
