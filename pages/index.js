@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <h1>This is HOME</h1>
-      <p>Updated new</p>
+      <p>Updated new 2</p>
 
      
     </div>
