@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <header>
       <Link href="/"><a>Home</a></Link>
-      <Link href="/test"><a>Test</a></Link>
+      <Link href="/Test"><a>Test</a></Link>
       </header>
   <Component {...pageProps} />
   </>
