@@ -11,7 +11,7 @@ export default function Home() {
 
       <h1>This is HOME</h1>
       <p>Updated new 2</p>
-        <img src='https://unsplash.it/200'/>
+        <img src='https://i.picsum.photos/id/538/200/200.jpg?hmac=oJRLJPsN8ZdWjPpKGEU-oqAZMBKa4JsTnuUSqgRbyP4'/>
     
     </div>
   )
