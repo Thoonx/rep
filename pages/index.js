@@ -10,14 +10,14 @@ export default function Home() {
       </Head>
 
       <h1>This is HOME</h1>
-<<<<<<< Updated upstream
+
       <p>Updated new 2</p>
         <img src='https://i.picsum.photos/id/538/200/200.jpg?hmac=oJRLJPsN8ZdWjPpKGEU-oqAZMBKa4JsTnuUSqgRbyP4'/>
     
-=======
+
       <p>Updated new</p>
 
->>>>>>> Stashed changes
+
     </div>
   )
 }
