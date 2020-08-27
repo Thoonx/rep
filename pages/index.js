@@ -1,10 +1,16 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Card from '../components/Card'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <motion.div 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 0}}
+        transition={{duration: .3 }}
+        className={styles.container}>
       <Head>
         <title>This is Home</title>
         <link rel="icon" href="/favicon.ico" />
@@ -36,6 +42,6 @@ export default function Home() {
      Text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
      />
      </div>
-    </div>
+    </motion.div>
   )
 }

@@ -3,9 +3,15 @@ import styles from '../styles/Home.module.css'
 import Hello from '../components/Hello'
 import Op from '../components/Op'
 import Card from '../components/Card'
+import { motion } from 'framer-motion'
 
 const Test =() => (
-    <div className={styles.container}>
+  <motion.div 
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 0}}
+      transition={{duration: .3 }}
+      className={styles.container}>
       <Head>
         <title>This is About</title>
         <link rel="icon" href="/favicon.ico" />
@@ -34,7 +40,7 @@ const Test =() => (
    
      </div>
     
-    </div>
+    </motion.div>
   )
 
 export default Test
