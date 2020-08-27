@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, router }) {
       </Head>
 <Nav />
     
-      <motion.div key={router.route} initial="pageInitial" animate="pageAntimation" 
+      <motion.div key={router.route} initial="pageInitial" animate="pageAntimation"  exit={{opcity: 1}}
       variants={{
         pageInitial: {
           opacity: 0
