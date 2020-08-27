@@ -23,6 +23,7 @@ nav{
 	margin: 20px 20px;
 	box-shadow: 6px 5px 13px #00000059;
 	position: fixed;
+	z-index: 22
 }
 
 nav ul li:nth-child(even){

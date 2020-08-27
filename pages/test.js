@@ -3,21 +3,17 @@ import styles from '../styles/Home.module.css'
 import Hello from '../components/Hello'
 import Op from '../components/Op'
 import Card from '../components/Card'
-import { motion } from 'framer-motion'
 
 const Test =() => (
-  <motion.div 
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: 0}}
-      transition={{duration: .3 }}
-      className={styles.container}>
+  <div className={styles.container}>
       <Head>
         <title>This is TEST</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+   
          <h1>This is TEST</h1>
+
 		 <Hello />
      <Op />
 
@@ -44,6 +40,6 @@ const Test =() => (
      />
      </div>
     
-    </motion.div>
+    </div>
   )
 export default Test
